@@ -1,0 +1,23 @@
+<menu tools:context=".MainActivity"
+    xmlns:tools="http://www.w3.org/1999/xhtml"
+    xmlns:android=""
+    xmlns:app="">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item
+        android:id="@+id/menu_aToz"
+        android:title="A -> Z" />
+    <item
+        android:id="@+id/menu_zToa"
+        android:title="Z -> A" />
+    <item
+        android:id="@+id/menu_scoreAscending"
+        android:title="Score ascending" />
+    <item
+        android:id="@+id/menu_scoreDescending"
+        android:title="Score descending" />
+</menu>

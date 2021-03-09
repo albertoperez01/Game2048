@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_menu"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_margin="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="GAME OVER"
+        />
+    <TextView
+        android:id="@+id/score"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Your score"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:text="Best score"
+        android:textColor="#FFFFFF"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/background_button_menu"
+            android:gravity="center"
+            android:id="@+id/Again"
+            android:textStyle="bold"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="PLAY"/>
+        <Button
+            android:background="@drawable/background_button_menu"
+            android:id="@+id/menu"
+            android:textStyle="bold"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="MENU"/>
+    </LinearLayout>
+</LinearLayout>
